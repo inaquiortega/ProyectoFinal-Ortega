@@ -1,0 +1,92 @@
+@import './base/vars';
+@import './base/maps';
+@import './base/mixin';
+@import './base/vars';
+@import './base/extend';
+@import './base/ops';
+@import './components/navbar';
+@import './components/cards';
+@import './components/animations';
+
+html {
+    background-color: $color1;
+}
+
+a:link, a:visited {
+    @include links(none, $color5)
+}
+
+.h5--modif {
+    @extend .h;
+}
+
+.col--modif {
+    padding-left: 0 !important;
+    @media (min-width: 375px) and (max-width: 768px) {
+        padding-right: 0 !important;
+    }
+}
+
+.col-img-izq--modif {
+    padding-left: 0 !important;
+    padding-right: $size1*0.5;
+    @media (min-width: 375px) and (max-width: 768px) {
+        padding-right: 0 !important;
+    }
+}
+
+.col-img-der--modif {
+    padding-right: 0 !important;
+    padding-left: $size1*0.5;
+    @media (min-width: 375px) and (max-width: 768px) {
+        padding-left: 0 !important;
+    }
+}
+
+.prensa-vid--modif {
+    padding-left: 0 !important;
+    padding-right: $size1*0.5;
+    @media (min-width: 375px) and (max-width: 768px) {
+        padding-right: 0 !important;
+    }
+}
+
+.prensa-img--modif {
+    padding-right: 0 !important;
+    padding-left: $size1*0.5;
+    @media (min-width: 375px) and (max-width: 768px) {
+        padding-left: 0 !important;
+    }
+}
+
+.contacto-img-size {
+    @media (min-width: 375px) and (max-width: 768px) {
+        height: 50%;
+        width: 50%;
+    }
+}
+
+.contacto-button {
+    font-family: map-get($contacto-button, ff);
+    font-size: map-get($contacto-button, fs);
+    line-height: map-get($contacto-button, lh);
+    color: map-get($contacto-button, cl);
+    background-color: map-get($contacto-button, bcl);
+    padding-top: map-get($contacto-button, pt);
+    padding-bottom: map-get($contacto-button, pb);
+    @media (min-width: 375px) and (max-width: 768px) {
+        font-size: $size1*1.4;
+    }
+}
+
+ul {
+    list-style: circle;
+    font-family: $font;
+    li {
+        font-weight: $weight1;
+        color: $color3;
+        @media (min-width: 375px) and (max-width: 768px) {
+            font-size: $size1*1.4;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.navbar--modif {
+    background-color: $color0;
+    padding: $size2 $size4 !important;
+    @media (min-width: 375px) and (max-width: 768px) {
+        padding: $size2 !important;
+    }
+}
+
+.navbar-toggler-icon--modif {
+    background-image: url('../img/nav-hamb-icon.svg') !important;
+}
+
+.nav-item--modif {
+    font-family: $font;
+    font-weight: $weight2;
+    font-size: $size2;
+    color: $color5;
+}
+
+.nav-link--modif:hover {
+    color: $color1 !important;
+}
+
+.nav-link--modif:active {
+    color: $color2 !important;
+}

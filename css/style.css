@@ -1,0 +1,370 @@
+.h, .h5--modif, .h2--modif, .h1--modif {
+  font-family: "Red Hat Display", sans-serif;
+  color: #000000;
+  font-weight: 900;
+}
+
+.corners, .btn--modif, .card-img-top--modif, .card--modif {
+  border-radius: 0 !important;
+}
+
+.body-margins {
+  margin: 40px 128px;
+}
+@media (min-width: 375px) and (max-width: 768px) {
+  .body-margins {
+    margin: 16px;
+  }
+}
+
+.main {
+  background-color: #ffffff;
+  padding: 24px 64px;
+}
+@media (min-width: 375px) and (max-width: 768px) {
+  .main {
+    padding: 24px;
+  }
+}
+
+.nav-logo {
+  width: 300px;
+  height: 64px;
+}
+@media (min-width: 375px) and (max-width: 767px) {
+  .nav-logo {
+    width: 160px;
+    height: 34px;
+  }
+}
+
+.h1--modif {
+  font-size: 96px;
+  margin-top: 47px;
+  margin-bottom: 47px;
+}
+@media (min-width: 375px) and (max-width: 767px) {
+  .h1--modif {
+    font-size: 47px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1440px) {
+  .h1--modif {
+    font-size: 64px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+}
+
+.h2--modif {
+  font-size: 47px;
+  margin-bottom: 16px;
+}
+@media (min-width: 375px) and (max-width: 767px) {
+  .h2--modif {
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 16px;
+  }
+}
+
+.p-index--modif {
+  font-family: "Red Hat Display", sans-serif;
+  color: #606060;
+}
+@media (min-width: 375px) and (max-width: 767px) {
+  .p-index--modif {
+    font-size: 14px;
+    padding-right: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1439px) {
+  .p-index--modif {
+    font-size: 19.2px;
+  }
+}
+@media (min-width: 1440px) and (max-width: 1441px) {
+  .p-index--modif {
+    font-size: 16px;
+  }
+}
+@media (min-width: 1442px) and (max-width: 1920px) {
+  .p-index--modif {
+    font-size: 19.2px;
+  }
+}
+
+.p--modif {
+  font-family: "Red Hat Display", sans-serif;
+  color: #606060;
+}
+@media (min-width: 375px) and (max-width: 767px) {
+  .p--modif {
+    font-size: 14px;
+  }
+}
+
+.p-col--modif {
+  font-family: "Red Hat Display", sans-serif;
+  color: #606060;
+  padding-right: 10px;
+}
+@media (min-width: 375px) and (max-width: 767px) {
+  .p-col--modif {
+    font-size: 14px;
+  }
+}
+
+.copyright {
+  font-family: "Red Hat Display", sans-serif;
+  color: #ffffff;
+  position: absolute;
+  font-size: 13px;
+}
+@media (min-width: 375px) and (max-width: 767px) {
+  .copyright {
+    font-size: 11px;
+  }
+}
+
+.navbar--modif {
+  background-color: #000000;
+  padding: 16px 64px !important;
+}
+@media (min-width: 375px) and (max-width: 768px) {
+  .navbar--modif {
+    padding: 16px !important;
+  }
+}
+
+.navbar-toggler-icon--modif {
+  background-image: url("../img/nav-hamb-icon.svg") !important;
+}
+
+.nav-item--modif {
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.nav-link--modif:hover {
+  color: #bc0056 !important;
+}
+
+.nav-link--modif:active {
+  color: #f6b006 !important;
+}
+
+.card-text--modif {
+  font-family: "Red Hat Display", sans-serif;
+  color: #000000;
+  font-weight: 500;
+}
+@media (min-width: 375px) and (max-width: 768px) {
+  .card-text--modif {
+    font-size: 14px !important;
+  }
+}
+
+.card--modif {
+  background-color: #e0e0e0 !important;
+  border-style: none !important;
+}
+
+.btn--modif {
+  font-family: "Red Hat Display", sans-serif !important;
+  color: #ffffff;
+  font-weight: 500;
+  background-color: #bc0056 !important;
+}
+@media (min-width: 375px) and (max-width: 768px) {
+  .btn--modif {
+    font-size: 14px !important;
+  }
+}
+
+.h-focus {
+  -webkit-animation: h-focus 1s both;
+  animation: h-focus 1s both;
+}
+
+@-webkit-keyframes h-focus {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes h-focus {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+.txt-focus {
+  -webkit-animation: txt-focus 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: txt-focus 1s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+
+@-webkit-keyframes txt-focus {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes txt-focus {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+.img-focus {
+  -webkit-animation: img-focus 1.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+  animation: img-focus 1.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) both;
+}
+
+@-webkit-keyframes img-focus {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes img-focus {
+  0% {
+    -webkit-filter: blur(12px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+html {
+  background-color: #bc0056;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.col--modif {
+  padding-left: 0 !important;
+}
+@media (min-width: 375px) and (max-width: 768px) {
+  .col--modif {
+    padding-right: 0 !important;
+  }
+}
+
+.col-img-izq--modif {
+  padding-left: 0 !important;
+  padding-right: 5px;
+}
+@media (min-width: 375px) and (max-width: 768px) {
+  .col-img-izq--modif {
+    padding-right: 0 !important;
+  }
+}
+
+.col-img-der--modif {
+  padding-right: 0 !important;
+  padding-left: 5px;
+}
+@media (min-width: 375px) and (max-width: 768px) {
+  .col-img-der--modif {
+    padding-left: 0 !important;
+  }
+}
+
+.prensa-vid--modif {
+  padding-left: 0 !important;
+  padding-right: 5px;
+}
+@media (min-width: 375px) and (max-width: 768px) {
+  .prensa-vid--modif {
+    padding-right: 0 !important;
+  }
+}
+
+.prensa-img--modif {
+  padding-right: 0 !important;
+  padding-left: 5px;
+}
+@media (min-width: 375px) and (max-width: 768px) {
+  .prensa-img--modif {
+    padding-left: 0 !important;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 768px) {
+  .contacto-img-size {
+    height: 50%;
+    width: 50%;
+  }
+}
+
+.contacto-button {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+  line-height: 80%;
+  color: #000000;
+  background-color: #e0e0e0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media (min-width: 375px) and (max-width: 768px) {
+  .contacto-button {
+    font-size: 14px;
+  }
+}
+
+ul {
+  list-style: circle;
+  font-family: "Red Hat Display", sans-serif;
+}
+ul li {
+  font-weight: 900;
+  color: #606060;
+}
+@media (min-width: 375px) and (max-width: 768px) {
+  ul li {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

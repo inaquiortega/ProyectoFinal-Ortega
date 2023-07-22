@@ -1,0 +1,9 @@
+@mixin links($fontD, $fontC) {
+    text-decoration: $fontD;
+    color: $color5;
+}
+
+@mixin pg($fontF, $fontC) {
+    font-family: $fontF;
+    color: $fontC;
+}

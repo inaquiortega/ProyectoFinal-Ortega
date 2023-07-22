@@ -1,0 +1,26 @@
+.card-text--modif {
+    @include pg($font, $color0);
+    font-weight: $weight3;
+    @media (min-width: 375px) and (max-width: 768px) {
+        font-size: $size1*1.4 !important;
+    }
+}
+.card--modif {
+    @extend .corners;
+    background-color: $color4 !important;
+    border-style: none !important;
+}
+
+.card-img-top--modif {
+    @extend .corners;
+}
+
+.btn--modif {
+    @extend .corners;
+    @include pg($font !important, $color5);
+    font-weight: $weight3;
+    background-color: $color1 !important;
+    @media (min-width: 375px) and (max-width: 768px) {
+        font-size: $size1*1.4 !important;
+    }
+}
