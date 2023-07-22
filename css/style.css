@@ -361,7 +361,7 @@ ul li {
   font-weight: 900;
   color: #606060;
 }
-@media (min-width: 375px) and (max-width: 768px) {
+@media (min-width: 375px) and (max-width: 767px) {
   ul li {
     font-size: 14px;
   }

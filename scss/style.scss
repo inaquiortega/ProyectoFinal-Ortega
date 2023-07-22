@@ -85,7 +85,7 @@ ul {
     li {
         font-weight: $weight1;
         color: $color3;
-        @media (min-width: 375px) and (max-width: 768px) {
+        @media (min-width: 375px) and (max-width: 767px) {
             font-size: $size1*1.4;
         }
     }
